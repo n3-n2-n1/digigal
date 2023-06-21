@@ -1,0 +1,63 @@
+.slider{
+background-color: black;
+}
+
+.logoSlider {
+    --image-size: 100px;
+    padding: 20px;
+    overflow: hidden;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    caret-color: transparent;
+    display: flex;
+    background-color: black;
+  }
+  .logoSlider:hover div {
+    animation-play-state: paused;
+    caret-color: transparent;
+    
+  }
+  .logoSlider div {
+    display: flex;
+    position: static;
+    animation: logoSlider 6s linear infinite;
+    justify-content: space-around;
+  }
+  .logoSlider img {
+    display: inline-block;
+    min-width: var(--image-size);
+    height: var(--image-size);
+    margin: 0 1vw;
+  }
+  .logoSlider:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, black, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), black);
+    caret-color: transparent;
+  
+  }
+
+  @keyframes logoSlider {
+    0% {
+      transform: translateX(0%);
+   }
+    100% {
+      transform: translateX(-100%);
+   }
+  }
+  
+  @keyframes slider1{
+    from {margin-left: 0%}
+    to {margin-left: -100%}
+  }
+  @keyframes slider2{
+    from {margin-left: 0%}
+    to {margin-left: -100%}
+  }
+  

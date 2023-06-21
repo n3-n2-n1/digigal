@@ -1,0 +1,194 @@
+.gallery-wrap,
+#gallery {
+  overflow: hidden;
+  padding: 0;
+}
+
+#filters {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+#filters li {   
+    margin-right: 1rem;
+    justify-content: center;
+}
+@media (max-width: 30em) {
+    #filters li {
+        margin-right: .5rem;
+    }
+}
+
+#filters li span {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #3f4159;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+    border: solid 1px #3F4159;
+    border-radius: 50px;
+}
+
+#filters li:hover span {
+  color: #000;
+}
+
+#filters li span.active {
+    background: #3F4159;
+    border: solid 1px #3F4159;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.gallery-item {
+  float: left;
+  width: 33.333%;
+  padding: 10px;
+  position: relative;
+  z-index: 10;
+  display: none;
+}
+
+.inside {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.details,
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;}
+.details h2 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+  }
+.details p {
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+
+.inside img {
+  float: left;
+  width: 80%;
+  background-size: 100% 100% cover;
+}
+
+.gallery-project{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.btnProject{
+    /* display: block; */
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #3f4159;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+    border: solid 1px #3F4159;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 .5em;
+}
+
+.btnProject:hover{
+    background-color: #DB3957;
+    border-color: #DB3957;
+}
+.btnProject:focus{
+    background-color: #DB3957 !important;
+    border-color: #DB3957 !important;
+}
+.btn-container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+button > .active{
+    color: black !important;
+}
+.overlay {
+    background: rgb(237 128 151 / 75%);
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
+}
+
+.gallery-item:hover .details,
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .mix{
+        width: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mix{
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 35em) {
+    .gallery-project {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+.project-description {
+    padding: 1.514rem 1rem 0 0;
+}
+.project-description h3 {
+    height: 47px;
+}
+.project-description small {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: inline-block;
+    color: #000;
+}
+
+
+.containerF{
+
+    justify-content: center !important;
+}
