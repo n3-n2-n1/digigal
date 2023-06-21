@@ -8,5 +8,27 @@
   background-color: black;
 }
 
-  
-  
+.btnCat{
+  /* display: block; */
+  justify-content: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.25s;
+  border: white;
+  border-radius: 50px;
+  background-color: #BE9E44;
+  margin: 0 .5em;
+
+}
+
+.btnCat:hover{
+  background-color: white;
+  border-color: black;
+  color: #BE9E44
+}
+.btnCat:focus{
+  background-color: white !important;
+  border-color: #BE9E44 !important;
+}

@@ -40,6 +40,7 @@ const Landing_EN = () => {
             <main>
               <Hero />
               <About />
+              <LogoSlide />
               <Trending />
               <Collections />
               <Categories />

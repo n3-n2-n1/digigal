@@ -21,11 +21,7 @@ const Footer = () => {
             <div className="content-space-1 content-space-b-lg-2 content-space-t-lg-3 bg-black">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="content-space-b-lg-1">
-                                <h1 className="text-white" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-in">Contact our <br /> sales team</h1>
-                                <p className="text-color-light-gray">Connect with our team to learn more about our services</p>
-                            </div>
+                        <div className="col-lg-6">  
                             <ul className="list-checked list-checked-success mb-0 pe-lg-6">
                                 <li className="list-checked-item" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-in"><b>Buenos Aires</b>: Ciudad Autonoma de Buenos Aires, Argentina</li>
                                 <li className="list-checked-item arrow-white" data-aos-delay="300" data-aos-duration="1000" data-aos="fade-in"><b>Brazil</b>: Florianopolis. Brazil.</li>
@@ -33,7 +29,7 @@ const Footer = () => {
                                 <li className="list-checked-item arrow-pink" data-aos-delay="500" data-aos-duration="1000" data-aos="fade-in"><b>+54 11 32379661</b></li>
                             </ul>
                         </div>
-                        <div className="col-lg-6 ps-lg-5 mt-10 mt-lg-0">
+                        {/* <div className="col-lg-6 ps-lg-5 mt-10 mt-lg-0">
                             <form id="holding-contact-form-index" data-aos="fade-in" data-aos-delay="400" data-aos-duration="1000">
                                 <div className="mb-4">
                                     <input type="text" className="form-control form-control-lg" name="formName" id="formName" placeholder="Name" aria-label="First" />
@@ -51,20 +47,20 @@ const Footer = () => {
                                     <button type="submit" className="btn-white">Send</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
             <div className="container border-top-gray content-space-t-2 content-space-b-1">
                 <div className="row">
 
-                    <div className="col-lg-3 mb-5 mb-md-0">
+                    <div className="col-lg-4 mb-5 mb-md-0">
                         <ul className="list-unstyled list-py-1 mb-0" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-in">
-                            <li><a href="#about-us" className="text-white">Login</a></li>
-                            <li><a href="#services" className="text-white">Terms & Conditions</a></li>
-                            <li><a href="#projects" className="text-white">How it works</a></li>
-                            <li><a href="#team" className="text-white">Team</a></li>
-                            <li><a href="#team" className="text-white">Contact</a></li>
+                            <li><a className="text-white">Login</a></li>
+                            <li><a className="text-white">Terms & Conditions</a></li>
+                            <li><a className="text-white">How it works</a></li>
+                            <li><a className="text-white">Team</a></li>
+                            <li><a className="text-white">Contact</a></li>
                         </ul>
                     </div>
                  

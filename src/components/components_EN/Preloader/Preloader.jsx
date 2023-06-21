@@ -15,7 +15,7 @@ const Preloader = () => {
   if (loading) {
     return (
       <div className="preloader">
-        <img src="../../../public/imgs/Preloader/logo-holding-white.svg" alt="preloader" />
+        <img src="../../../public/imgs/Preloader/logo.svg" alt="preloader" />
         <div className="loader"></div>
       </div>
     );

@@ -124,12 +124,12 @@
 }
 
 .btnProject:hover{
-    background-color: #DB3957;
-    border-color: #DB3957;
+    background-color: #BE9E44;
+    border-color: #BE9E44;
 }
 .btnProject:focus{
-    background-color: #DB3957 !important;
-    border-color: #DB3957 !important;
+    background-color: #BE9E44 !important;
+    border-color: #BE9E44 !important;
 }
 .btn-container{
     /* display: flex; */

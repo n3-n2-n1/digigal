@@ -38,7 +38,7 @@ const Hero = () => {
                 Discover, <span className="selected"><br /> Collect. <br /> Sell. <br/> Vanguard. </span>
               </h1>
 
-              <button type="submit" className="btn-white text-black">Mint now!</button>
+              <button type="submit" className=" btnHero">Mint now!</button>
 
             </div>
           </div>
